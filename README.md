@@ -32,3 +32,9 @@ UI Components
 - Recebe dados via props
 - Somente concerned com UI
 - Usa funções para criar
+
+Redux
+
+- dados centralizados para toda aplicação
+- qualquer componente pode acessar os dados dela
+- gerenciamento de estado fácil
