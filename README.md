@@ -38,3 +38,7 @@ Redux
 - dados centralizados para toda aplicação
 - qualquer componente pode acessar os dados dela
 - gerenciamento de estado fácil
+
+O redux é uma implementação de arquitetura de software chamado flux.
+Store é uma fonte única no Redux. Os componentes apenas fazem a leitura da store, e nunca modificam diretamente nele.
+Toda manipulação na store é feita através de uma função pura, chamada reducer. Recebe o estado e a ação.
